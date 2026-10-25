@@ -1,0 +1,19 @@
+{
+  "name": "ai-context-backend",
+  "version": "1.0.0",
+  "description": "Secure Node.js backend for connecting ChatGPT and Gemini APIs",
+  "type": "module",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node server.mjs"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "openai": "^4.86.1"
+  }
+}
